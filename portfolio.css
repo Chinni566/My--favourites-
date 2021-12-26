@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background: linear-gradient(#c6ffdd 0%, #fbd786 100%, #f7797d 0%);
+    background-repeat: no-repeat;
+  }
+  
+  img {
+    border-radius: 10%;
+    width: 350px;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px #6dd5fa;
+    font-size: 50px;
+  }
+  
+  p {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 20px;
+    color: #1a237e;
+  }
+  .line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+  }
+  #bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(#f7ff00 0%, #db36a4 100%, #f7797d 0%, #6dd5fa);
+  
+    background: #f7ff00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #db36a4,
+      #f7ff00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #db36a4,
+      #f7ff00
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .menu {
+    list-style: none;
+    font-family: Cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  h2 {
+    font-family: "Courgette", cursive;
+    font-size: 75px;
+  }
+  
