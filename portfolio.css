@@ -27,7 +27,8 @@ body {
     width: 70px;
     margin: 8px auto;
   }
-  #bio {
+  #bio
+   {
     padding: 20px;
     font-size: 18;
     text-align: center;
@@ -61,3 +62,11 @@ body {
     font-size: 75px;
   }
   
+  
+#picture,#pic{
+    height: 500px;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
