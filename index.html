@@ -3,19 +3,33 @@
 <head>
     <title>My Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    >
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+                         </div>
+            <div class="collapse navbar-collapse" id="myNavbar">  
 
-    <ul class="menu">
-        <li class="link"><a href="#bio">About</a></li>
-        <li class="link"><a href="#References">My favorite books</a></li>
-        <li class="link"><a href="#Mywork">My work</a></li>
-        <li class="link"><a href="#inspiration"></a>Inspiration</li>
-        <li class="link">Contact</li>
+    <ul class="nav navbar-nav">
+        <li class="links"><a href="#bio">About</a></li>
+        <li class="links"><a href="#References"> My favorite books</a></li>
+        <li class="links"><a href="#Mywork">My work</a></li>
+        <li class="links"><a href="#NMInspiration">Inspiration</a></li>
+        <li class="links"><a href="#contact">Contact</a></li>
     </ul>
+    </div>
+    </nav>
     <img src="https://images.unsplash.com/photo-1560272564-c83b66b1ad12?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80">
     <h1>My Favorite Hobby <br><span id="name>">
         <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap%22" rel="stylesheet">
@@ -24,7 +38,7 @@
     </div>
   </section>
   <section id="bio">
-    <h1> About </h1>
+    <h1> About  </h1>
     <div class="line"></div>
     <p>My hobby is playing football it gives me energy and keeps healthy . I love to play football with my friends in the outdoors... </p>
   </section>
@@ -41,8 +55,8 @@
         <button class='button'><a href="story.html">Click here to view my story</a></button>
         <div class="line"></div>
     </section>
-    <section id="MyInspiration" class='inspiration'>
-        <h1>My Inspiration</h1>
+    <section id="NMInspiration">
+        <h1>  My Inspiration</h1>
 
         <div class="line"></div>
         <div id="myname">
@@ -50,20 +64,51 @@
 
         <div>
 
-            <span>>
+            <span>
                 <a href="https://www.cristianoronaldo.com/" target="_blank">
-                    <img id="picture" class="pic" src="Cristiano_Ronaldo_2018.jpg">
+                    <img id="picture"  src="Cristiano_Ronaldo_2018.jpg">
                 </a>
             </span>
 
             <span>
 
                 <a href="https://www.alberteinsteinsite.com/" target="_blank">
-                    <img id="pic" class="pic" src="ae.jpg">
+                    <img id="pic"  src="ae.jpg">
+
                 </a>
             </span>
         </div>
 
     </section>
+
+    <section id="contact">
+        <h1 id=about_>Contacts</h1>
+       
+           <span>
+            <hr style="width:100%">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+    
+    
+            <div class="contact_1" >
+                <img src="download.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+               <a href="mailto:neerajkorada@gmail.com?Subject=Hi">
+                </a> 
+    
+            
+       
+        <!--
+        
+        -->
+         <div class="contact_2"  >
+              <form>
+             <span>Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="name" required>
+             <br><br>
+                  <span>Comment:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="comment" required>
+                  <input type="submit" value="submit" class="btn btn-success">
+            </form>
+            </div>
+        </span>
+        
+        </section>
 
 </body></html>
